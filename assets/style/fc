@@ -1,0 +1,11 @@
+.working_progress .stepper .step-title:nth-child(5)::before {
+  content: " ";
+  position: absolute;
+  bottom: -141%;
+  right: -184%;
+  width: 199%;
+  height: 137%;
+  background-image: url("../images/working_progress/vector-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 5;
