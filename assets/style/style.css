@@ -235,6 +235,16 @@
   width: auto;
   height: 3rem;
 }
+@media (max-width: 767px) {
+  .choose_us .contact img {
+    height: 2.5rem;
+  }
+}
+@media (max-width: 575px) {
+  .choose_us .contact img {
+    height: 2.2rem;
+  }
+}
 .choose_us .contact .text {
   font-size: clamp(10px, 2vw, 18px);
 }
@@ -460,6 +470,11 @@
 .news-letter .news-body .head {
   padding-bottom: 10rem;
 }
+@media (max-width: 768px) {
+  .news-letter .news-body .head {
+    padding-bottom: 5rem;
+  }
+}
 .news-letter .news-body .sub-title a {
   color: #fff !important;
   text-decoration: none;
@@ -502,4 +517,5 @@
 .news-letter .partners img {
   width: 10%;
   height: auto;
+  max-height: 3rem;
 }/*# sourceMappingURL=style.css.map */
