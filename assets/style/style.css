@@ -35,6 +35,85 @@
   }
 }
 
+.intro {
+  background-image: linear-gradient(rgb(2, 3, 62), rgba(17, 4, 79, 0.68)), url("../images/intro (1).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.intro .navbar .navbar-brand img {
+  width: 5.5rem;
+  height: auto;
+}
+.intro .navbar .navbar-nav .nav-link {
+  color: #fff !important;
+  transition: 0.5s;
+  font-size: clamp(1rem, 4vw + 1rem, 1.3rem);
+  border-bottom: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  letter-spacing: 1px;
+}
+.intro .navbar .navbar-nav .nav-link:hover {
+  color: #E00734 !important;
+  border-bottom: 1px solid #E00734;
+}
+.intro .row {
+  height: 100vh;
+}
+.intro .title {
+  font-size: clamp(1.8rem, 7vw, 4.5rem);
+  /* The font size will scale between 1.8rem and 3.5rem */
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.intro .title .title-style-1 {
+  font-size: clamp(1.8rem, 7vw, 4.9rem);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #E00734;
+  -webkit-text-stroke-width: 1px;
+}
+.intro .title .title-style-2::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 20%;
+  background-color: #E00734;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.intro .sub-title {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  /* The font size will scale between 1rem and 1.5rem */
+  line-height: 1.4;
+  color: #afaeae;
+}
+.intro .slide-container {
+  height: 21rem;
+  position: relative;
+  padding: 0 1rem;
+}
+.intro .slide-container .swiper {
+  width: 100%;
+  height: 100%;
+}
+.intro .slide-container .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro .slide-container .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
 .working_progress {
   min-height: 100vh;
   background-color: #F8F4FF;
@@ -518,4 +597,11 @@
   width: 10%;
   height: auto;
   max-height: 3rem;
+}
+
+.footer div {
+  background-color: #f7f4f4;
+  border-top: 1px solid #f4f2f2;
+  font-size: clamp(14px, 1.5vw, 20px);
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
