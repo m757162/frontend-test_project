@@ -71,7 +71,7 @@
   font-size: clamp(1.8rem, 7vw, 4.9rem);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: #E00734;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
 }
 .intro .title .title-style-2::before {
   content: " ";
